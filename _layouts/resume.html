@@ -27,7 +27,7 @@
         </div>
 
         <div class="executive-summary">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          <p>An adaptable, responsible, outgoing, hard working a soon to be graduate seeking an intership position or job as a web developer.</p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -108,15 +108,15 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://donutlocator.io">donutfinder.io</a></h3>
-          <h4 class="resume-item-details">Founder & Primary Developer &bull; 2012 &mdash; Present</h4>
-          <p class="resume-item-copy">Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.</p>
+          <h3 class="resume-item-title"><a target="_blank" href="https://www.dropbox.com/s/z0wn8c1icj2oj6f/StockMarketZend.zip?dl=0">StockMarket</a></h3>
+          <h4 class="resume-item-details">School project</h4>
+          <p class="resume-item-copy">PHP Zend framework gamification of stock market.</p>
         </div>
 
         <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Donut Eater's User Group</h3>
-          <h4 class="resume-item-details">Co-Founder & Organizer &bull; 2007 &mdash; Present</h4>
-          <p class="resume-item-copy">DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.</p>
+          <h3 class="resume-item-title">FoodFu</h3>
+          <h4 class="resume-item-details">School project</h4>
+          <p class="resume-item-copy">Andriod application for finding the closest restaurants, coffe bars nearby.</p>
         </div>
 
       </section>
@@ -170,7 +170,7 @@
 
         <div class="resume-item">
           <h3 class="resume-item-title">Vlatko Ristovski</h3>
-          <h4 class="resume-item-details">Ruby developer at <a href='http://medialab.io/'>Medialab.io<a></h4>
+          <h4 class="resume-item-details">Ruby developer at <a target="_blank" href='http://medialab.io/'>Medialab.io<a></h4>
           <p class="resume-item-copy">phone: +389 78 304 870 &bull; email: ristovski.vlatko234@gmail.com </p>
       </section>
       <!-- end Recognition -->
@@ -217,6 +217,24 @@
 
       </section>
       <!-- end Links -->
+      {% endif %}
+
+      {% if site.resume_section_interests %}
+        <section class="content-section">
+
+          <header class="section-header">
+            <h2>Interests</h2>
+          </header>
+
+          <div class="resume-item">
+            <ul class="resume-item-list">
+              <li>Sports(basketball)</li>
+              <li>Reading books(The Da Vinci Code, Steve Jobs)</li>
+              <li>Watching movies</li>
+            </ul>
+          </div>
+
+        </section>
       {% endif %}
 
       <footer class="page-footer">
